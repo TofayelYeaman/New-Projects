@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.newarea {
+    text-align: center;
+    background-color: deeppink;
+}
+
+.bigdiv {
+    background: rgb(224, 193, 15);
+    display: inline-block;
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    position: relative;
+    padding: 5px;
+    margin: 5px;
+   
+
+}
+
+.left {
+    position: absolute;
+    width: 100px;
+    height: 5px;
+    background: darkred;
+    left: 101%;
+    bottom: 50%;
+
+}
+
+.right {
+    position: absolute;
+    width: 100px;
+    height: 5px;
+    background: darkred;
+    right: 101%;
+    bottom: 50%;
+
+}

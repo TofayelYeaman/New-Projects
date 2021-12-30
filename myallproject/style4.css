@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.lgg {
+
+
+    background-color: #241d1d;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+
+}
+
+.item {
+    width: 200px;
+    height: 200px;
+    background: orange;
+    border: 5px solid black;
+    text-align: center;
+
+
+}
+
+.one {
+    background: tomato;
+}
+
+.two {
+    background: palegreen;
+}
+
+.three {
+    background: turquoise;
+}
+
+.four {
+    background: yellow;
+}
