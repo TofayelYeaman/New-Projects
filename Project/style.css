@@ -60,8 +60,9 @@
 
 /* ===HeroSection-start */
 #HeroSEction {
-  background-color: #1f2e41;;
-}  
+    background-color: #1f2e41;
+    ;
+}
 
 .Hero-Area {
 
@@ -73,7 +74,7 @@
 }
 
 .Left-Part {
-   
+
     margin-top: 123px;
 }
 
@@ -113,8 +114,9 @@
 }
 
 .right-Part a img {}
-.images img{
-   
+
+.images img {
+
     width: 450px;
     max-width: 100%;
 }
@@ -241,20 +243,18 @@
 
 /* Offerservices-Start-here */
 /* Feaures-services-Start */
-#Features-Projects{
-    background-color:#6e2c77;
-}
-.features-project{
-    background: #8490ff;
-  
-}
-.upper-area{
-    background: #755b9e;
+#Features-Projects {}
+
+.features-project {}
+
+.upper-area {
+
     font-family: 'Times New Roman', Times, serif;
-    color: white;
+    color: rgb(0, 0, 0);
     text-align: center;
 }
-.upper-title{
+
+.upper-title {
     font-size: 35px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     line-height: 40px;
@@ -262,9 +262,70 @@
 
 
 }
-.uper-para{
+
+.uper-para {
     font-size: 16px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     line-height: 40px;
 }
+
+.lower-area {}
+
+.middle-area {
+    margin: 10px 0 10px 0;
+
+}
+
+.middle-area-ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.ul-items a {
+    text-decoration: none;
+    padding: 20px 20px;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+
+
+
+}
+
+.lower-area {
+
+
+    margin-top: 40px;
+}
+
+.lower-area-box-items {
+    text-align: center;
+
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+}
+
+.boxes {
+    position: relative;
+}
+
+.boxes1:hover {
+    position: absolute;
+    background-color: tomato;
+}
+
+.boxes-img {}
+
+.boxes-title {
+    font-size: 20px;
+    line-height: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.boxes-sub {
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 /* Feaures-services-End */
